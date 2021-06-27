@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".view.UpdateActivity">
+
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Update your password and Image"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+
+
+
+
+
+    <EditText
+        android:layout_margin="15dp"
+        android:id="@+id/passwordUpdateET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Your New Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+    <ImageView
+        android:id="@+id/profilePic"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="330dp"
+        android:layout_height="257dp"
+        android:layout_margin="20dp" />
+
+
+
+
+    <Button
+        android:id="@+id/captureImageBTN"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Capture Image" />
+
+
+
+    <Button
+        android:id="@+id/updateButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Update" />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
